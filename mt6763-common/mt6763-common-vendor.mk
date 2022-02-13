@@ -10,8 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/mt6763-common/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/gigaset/mt6763-common/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/gigaset/mt6763-common/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/gigaset/mt6763-common/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
-    vendor/gigaset/mt6763-common/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
     vendor/gigaset/mt6763-common/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
     vendor/gigaset/mt6763-common/proprietary/lib/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma.so \
     vendor/gigaset/mt6763-common/proprietary/lib/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_adapt.so \
@@ -88,6 +86,8 @@ PRODUCT_PACKAGES += \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-ims-legacy \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
