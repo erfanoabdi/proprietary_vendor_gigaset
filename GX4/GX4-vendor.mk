@@ -71,7 +71,9 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/gigaset/GX4/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/gigaset/GX4/proprietary/vendor/bin/bip:$(TARGET_COPY_OUT_VENDOR)/bin/bip \
+    vendor/gigaset/GX4/proprietary/vendor/bin/bip_ap:$(TARGET_COPY_OUT_VENDOR)/bin/bip_ap \
     vendor/gigaset/GX4/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
+    vendor/gigaset/GX4/proprietary/vendor/bin/ccci_fsd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_fsd \
     vendor/gigaset/GX4/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/gigaset/GX4/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     vendor/gigaset/GX4/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
@@ -82,11 +84,13 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     vendor/gigaset/GX4/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
     vendor/gigaset/GX4/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
+    vendor/gigaset/GX4/proprietary/vendor/bin/eara_io_service:$(TARGET_COPY_OUT_VENDOR)/bin/eara_io_service \
     vendor/gigaset/GX4/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/gigaset/GX4/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/gigaset/GX4/proprietary/vendor/bin/fpsgo:$(TARGET_COPY_OUT_VENDOR)/bin/fpsgo \
     vendor/gigaset/GX4/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/gigaset/GX4/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
+    vendor/gigaset/GX4/proprietary/vendor/bin/gbe:$(TARGET_COPY_OUT_VENDOR)/bin/gbe \
     vendor/gigaset/GX4/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/gigaset/GX4/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
     vendor/gigaset/GX4/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
@@ -102,6 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek \
     vendor/gigaset/GX4/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/gigaset/GX4/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
+    vendor/gigaset/GX4/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/gigaset/GX4/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/gigaset/GX4/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/gigaset/GX4/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
@@ -137,6 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
     vendor/gigaset/GX4/proprietary/vendor/bin/stroke:$(TARGET_COPY_OUT_VENDOR)/bin/stroke \
     vendor/gigaset/GX4/proprietary/vendor/bin/teei_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/teei_daemon \
+    vendor/gigaset/GX4/proprietary/vendor/bin/thermal_core:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_core \
+    vendor/gigaset/GX4/proprietary/vendor/bin/thermal_intf:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_intf \
     vendor/gigaset/GX4/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     vendor/gigaset/GX4/proprietary/vendor/bin/volte_imcb:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imcb \
     vendor/gigaset/GX4/proprietary/vendor/bin/volte_imsm_93:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imsm_93 \
@@ -146,13 +153,28 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/bin/volte_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_ua \
     vendor/gigaset/GX4/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
     vendor/gigaset/GX4/proprietary/vendor/bin/wfca:$(TARGET_COPY_OUT_VENDOR)/bin/wfca \
+    vendor/gigaset/GX4/proprietary/vendor/bin/wifimacaddr:$(TARGET_COPY_OUT_VENDOR)/bin/wifimacaddr \
     vendor/gigaset/GX4/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     vendor/gigaset/GX4/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/gigaset/GX4/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
+    vendor/gigaset/GX4/proprietary/vendor/bin/xcap:$(TARGET_COPY_OUT_VENDOR)/bin/xcap \
+    vendor/gigaset/GX4/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/BSTAISCENE:$(TARGET_COPY_OUT_VENDOR)/etc/BSTAISCENE \
+    vendor/gigaset/GX4/proprietary/vendor/etc/BSTSWADParamList.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/BSTSWADParamList.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/BSTSWAD_AI:$(TARGET_COPY_OUT_VENDOR)/etc/BSTSWAD_AI \
+    vendor/gigaset/GX4/proprietary/vendor/etc/BSTSWAD_Calib.bin:$(TARGET_COPY_OUT_VENDOR)/etc/BSTSWAD_Calib.bin \
     vendor/gigaset/GX4/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/aibokeh_0.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_0.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/aibokeh_1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_1.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/aibokeh_BSTAI:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_BSTAI \
     vendor/gigaset/GX4/proprietary/vendor/etc/apdb/APDB_MT6789___W2223:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2223 \
     vendor/gigaset/GX4/proprietary/vendor/etc/apdb/APDB_MT6789___W2223_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2223_ENUM \
+    vendor/gigaset/GX4/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
+    vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/AudioParamOptions_mgvi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_mgvi.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/AudioParamVersionInfo.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamVersionInfo.txt \
     vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
@@ -261,6 +283,14 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/bstBackLightDetect.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstBackLightDetect.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/bst_3ddns_front.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bst_3ddns_front.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/bst_3ddns_main.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bst_3ddns_main.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/bst_3ddns_wide.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bst_3ddns_wide.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/bst_filter_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bst_filter_config.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/bstbeauty.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstbeauty.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/control_param_AiScene_encode.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/control_param_AiScene_encode.cfg \
     vendor/gigaset/GX4/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
     vendor/gigaset/GX4/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
@@ -273,6 +303,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
+    vendor/gigaset/GX4/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
     vendor/gigaset/GX4/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -306,15 +337,26 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.bip_ap.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip_ap.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.gps_pwr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_pwr.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.thermal_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_core.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.volte_imcb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imcb.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.volte_imsm_93.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imsm_93.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.volte_md_status.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_md_status.rc \
@@ -322,7 +364,10 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.volte_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_ua.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.wfca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wfca.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/init.wod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wod.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/init.xcap.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.xcap.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
@@ -336,6 +381,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/pri_misc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pri_misc.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/v3avpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/v3avpud.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
@@ -348,11 +394,37 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/init/wifimacaddr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifimacaddr.rc \
     vendor/gigaset/GX4/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG3.crt \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/EntrustRootCertificationAuthorityG2_root.crt \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA_G2_ECC.der \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GlobalSign_root_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/GlobalSign_root_CA.crt \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/LibertyGlobalEnterprise-Root-CA-G1.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/LibertyGlobalEnterprise-Root-CA-G1.crt \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Root-R3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/Root-R3.cer \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Root_CA_1003.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/Root_CA_1003.crt \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G4.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G4.der \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/gold.cer:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/gold.cer \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
     vendor/gigaset/GX4/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/gigaset/GX4/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
+    vendor/gigaset/GX4/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/gigaset/GX4/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/gigaset/GX4/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
+    vendor/gigaset/GX4/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
+    vendor/gigaset/GX4/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
     vendor/gigaset/GX4/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
     vendor/gigaset/GX4/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
@@ -505,12 +577,24 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf.txt \
+    vendor/gigaset/GX4/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/disable_thermal_temp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal_temp.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/disable_throttling.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_throttling.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/thermal_mtbf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_mtbf.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/thermal_policy_00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_00.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/thermal_policy_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_02.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/thermal/thermal_policy_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08.conf \
+    vendor/gigaset/GX4/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/gigaset/GX4/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
+    vendor/gigaset/GX4/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
     vendor/gigaset/GX4/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/gigaset/GX4/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin \
     vendor/gigaset/GX4/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1e_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1e_1.bin \
@@ -559,6 +643,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.beanpod.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.beanpod.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
@@ -578,6 +663,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Coosea_Remosaic.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libCamera_s5kgm1stmipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stmipiraw_Coosea_Remosaic.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libCamera_s5kgm1stmipiraw_Scene_HDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stmipiraw_Scene_HDR.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libCamera_s5kgm1stmipiraw_Scene_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stmipiraw_Scene_lowlight.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libCamera_s5kgm1stmipiraw_Video_1080_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stmipiraw_Video_1080_120.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libCamera_s5kgm1stmipiraw_Video_Zoom_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stmipiraw_Video_Zoom_2x.so \
@@ -593,6 +679,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSQLiteModule_VER_ALL.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
@@ -603,8 +690,11 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw_batch.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys_edma.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libarmnn_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn_ndk.mtk.vndk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_core.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mapi.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mdmi.so \
@@ -618,6 +708,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofmtconv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioloudc.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libaudiosmartpamtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiosmartpamtk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
@@ -630,11 +721,14 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.utility.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcharon-ss.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl_ndk.mtk.vndk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_vdec.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_venc.so \
@@ -654,6 +748,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflatbuffers-cpp.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
@@ -661,6 +756,8 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_gp_client.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_uree.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libh264dec_customize.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_customize.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sa.ca7.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libh264dec_sd.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sd.ca7.so \
@@ -712,10 +809,15 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libmvpu_runtime_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_runtime_pub.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libmvpuop_mtk_cv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpuop_mtk_cv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libmvpuop_mtk_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpuop_mtk_nn.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuron_graph_delegate.mtk.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libnpagent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnpagent.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnwk_opt_halwrap_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcap.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
@@ -726,6 +828,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libruy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libruy.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimaka.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
@@ -733,10 +836,13 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libssl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-md.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorage_otp.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstrongswan.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteei_daemon_vfs.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libtensorflowlite_c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtensorflowlite_c.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtextclassifier_hash.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mapi_v3.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mdmi_v2.8.2.so \
@@ -745,6 +851,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libverno.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libviagpsrpc.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libvolte_core_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_core_shr.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libvolte_xdmc_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_xdmc_shr.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_aa.so \
@@ -765,7 +872,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/gc08a3wide_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc08a3wide_mipi_raw_IdxMgr.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/mt6789/gc08a3wide_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/gc08a3wide_mipi_raw_IdxMgr.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/gc08a3wide_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc08a3wide_mipi_raw_tuning.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/mt6789/gc08a3wide_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/gc08a3wide_mipi_raw_tuning.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
@@ -839,10 +945,8 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcamalgo.platform2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform2.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcameracustom.lens.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.lens.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/mt6789/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libdpframework.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/mt6789/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtk_drvb.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
@@ -855,9 +959,8 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libneuralnetworks_sl_driver_mtk_prebuilt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuralnetworks_sl_driver_mtk_prebuilt.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libneuron_adapter_mgvi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuron_adapter_mgvi.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/mt6789/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libnir_neon_driver.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnir_neon_driver.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/mt6789/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libpq_prot.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqparamparser.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
@@ -900,6 +1003,9 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.2.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.neuropilot.agent@1.0.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.neuropilot.agent@1.1.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.neuropilot.agent@1.2.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
@@ -921,6 +1027,9 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.9.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.rcs@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.rcs@2.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/APUWareApusysServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysServer.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/APUWareHmpServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareHmpServer.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
@@ -941,6 +1050,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/hw/hwcomposer.mtk_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mtk_common.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.beanpod.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
@@ -973,6 +1083,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libBSTSingleAIBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTSingleAIBokeh.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Coosea_Remosaic.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libCamera_s5kgm1stmipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_s5kgm1stmipiraw_Coosea_Remosaic.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libCamera_s5kgm1stmipiraw_Scene_HDR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_s5kgm1stmipiraw_Scene_HDR.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libCamera_s5kgm1stmipiraw_Scene_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_s5kgm1stmipiraw_Scene_lowlight.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libCamera_s5kgm1stmipiraw_Video_1080_120.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_s5kgm1stmipiraw_Video_1080_120.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libCamera_s5kgm1stmipiraw_Video_Zoom_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_s5kgm1stmipiraw_Video_Zoom_2x.so \
@@ -982,8 +1093,15 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libVkLayer_mtk_rt_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_mtk_rt_sdk.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/lib_eara_io_scndet.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_scndet.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/lib_eara_io_service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_service.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/lib_eara_io_systracer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_systracer.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/lib_eara_io_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_timer.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/lib_eara_io_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_util.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_speech_enh.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_cust.so \
@@ -993,8 +1111,11 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw_batch.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys_edma.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libarmnn_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn_ndk.mtk.vndk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_core.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mapi.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mdmi.so \
@@ -1008,6 +1129,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofmtconv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioloudc.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libaudiosmartpamtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiosmartpamtk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
@@ -1038,6 +1160,8 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon-ss.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl_ndk.mtk.vndk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_c2store.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_vdec.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_venc.so \
@@ -1059,7 +1183,9 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_sensor_jni.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libfcell.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfcell.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfgauge_gm30.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflatbuffers-cpp.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatter.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
@@ -1068,11 +1194,14 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libgwsd-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgwsd-ril.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_gp_client.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_uree.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrvideo.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libheichal.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanager.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanagerwrapper.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libhydra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhydra.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libicd_decoder.so \
@@ -1135,9 +1264,16 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libmvpu_runtime_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_runtime_pub.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libmvpuop_mtk_cv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpuop_mtk_cv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libmvpuop_mtk_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpuop_mtk_nn.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_graph_delegate.mtk.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libnpagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpagent.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libnpagent_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpagent_server.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnwk_opt_halwrap_vendor.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpcap.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
@@ -1151,6 +1287,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libruy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libruy.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
@@ -1164,6 +1301,8 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteei_daemon_vfs.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libtensorflowlite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowlite.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libtensorflowlite_c.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowlite_c.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtextclassifier_hash.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mdmi_v2.8.2.so \
@@ -1346,7 +1485,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libdip_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_drv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_postproc.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib64/mt6789/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libdpframework.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
@@ -1364,7 +1502,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnl.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib64/mt6789/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libmtk_drvb.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.atmseventmgr.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.eventcallback.so \
@@ -1432,9 +1569,8 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libneuron_adapter_mgvi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter_mgvi.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libneuron_runtime.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.5.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib64/mt6789/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libnir_neon_driver.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib64/mt6789/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libpq_prot.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
@@ -1449,6 +1585,9 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/s5k2lqsx_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k2lqsx_mipi_raw_IdxMgr.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
@@ -1490,9 +1629,13 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so \
+    vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.1.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@2.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.1.so \
@@ -1513,6 +1656,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/gigaset/GX4/proprietary/vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/0102030405060708090a0b0c0d0e0f10.ta \
     vendor/gigaset/GX4/proprietary/vendor/thh/ta/04190000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/04190000000000000000000000000000.ta \
+    vendor/gigaset/GX4/proprietary/vendor/thh/ta/8b22aba81ef0ccbfd9f5f4b634127e15.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/8b22aba81ef0ccbfd9f5f4b634127e15.ta \
     vendor/gigaset/GX4/proprietary/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta \
     vendor/gigaset/GX4/proprietary/vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta \
     vendor/gigaset/GX4/proprietary/vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta \
@@ -1539,10 +1683,16 @@ PRODUCT_PACKAGES += \
     android.hardware.security.secureclock-service.beanpod \
     android.hardware.security.sharedsecret-service.beanpod \
     android.hardware.usb@1.2-service-mediatekv2 \
+    android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
     gnss-mtk \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
     manifest_android.hardware.drm@1.4-service.widevine \
+    manifest_apuware_apusys \
+    manifest_apuware_hmp \
+    manifest_apuware_utils \
+    manifest_cameraprovider \
     manifest_hwcomposer \
+    manifest_media_c2_V1_2_default \
     memtrack-mediatek
