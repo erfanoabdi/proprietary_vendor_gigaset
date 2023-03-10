@@ -748,7 +748,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflatbuffers-cpp.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
@@ -817,7 +816,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnwk_opt_halwrap_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcap.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
@@ -828,7 +826,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/libruy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libruy.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimaka.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
@@ -841,7 +838,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteei_daemon_vfs.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libtensorflowlite_c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtensorflowlite_c.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtextclassifier_hash.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
     vendor/gigaset/GX4/proprietary/vendor/lib/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mapi_v3.0.so \
@@ -1185,7 +1181,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfgauge_gm30.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib64/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflatbuffers-cpp.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatter.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
@@ -1273,7 +1268,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnwk_opt_halwrap_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib64/libpcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpcap.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
@@ -1287,7 +1281,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib64/libruy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libruy.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
@@ -1301,7 +1294,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteei_daemon_vfs.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libtensorflowlite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowlite.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libtensorflowlite_c.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowlite_c.so \
-    vendor/gigaset/GX4/proprietary/vendor/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtextclassifier_hash.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
     vendor/gigaset/GX4/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
