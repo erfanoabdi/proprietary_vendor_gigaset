@@ -59,9 +59,41 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "DebugLoggerUI",
+	owner: "gigaset",
+	apk: "proprietary/app/DebugLoggerUI/DebugLoggerUI.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "EngineerMode",
+	owner: "gigaset",
+	apk: "proprietary/priv-app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "ImsService",
 	owner: "gigaset",
 	apk: "proprietary/priv-app/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "PriFactoryTest",
+	owner: "gigaset",
+	apk: "proprietary/priv-app/PriFactoryTest/PriFactoryTest.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
