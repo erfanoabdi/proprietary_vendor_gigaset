@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/gigaset/GS5/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/gigaset/GS5/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
+    vendor/gigaset/GS5/proprietary/lib/libmemoryDumpEncoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmemoryDumpEncoder.so \
     vendor/gigaset/GS5/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
     vendor/gigaset/GS5/proprietary/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
     vendor/gigaset/GS5/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
@@ -22,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.5.so \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.8.so \
+    vendor/gigaset/GS5/proprietary/lib64/libccci_util_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libccci_util_sys.so \
     vendor/gigaset/GS5/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
     vendor/gigaset/GS5/proprietary/lib64/libem_aoltest_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_aoltest_jni.so \
     vendor/gigaset/GS5/proprietary/lib64/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_audio_jni.so \
@@ -33,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
     vendor/gigaset/GS5/proprietary/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_socketwrapper.so \
     vendor/gigaset/GS5/proprietary/lib64/libjni_pq.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_pq.so \
+    vendor/gigaset/GS5/proprietary/lib64/libmemoryDumpEncoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmemoryDumpEncoder.so \
     vendor/gigaset/GS5/proprietary/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
     vendor/gigaset/GS5/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/gigaset/GS5/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
