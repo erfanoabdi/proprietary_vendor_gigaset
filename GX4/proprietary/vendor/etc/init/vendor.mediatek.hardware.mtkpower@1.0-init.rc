@@ -241,6 +241,16 @@ on post-fs-data
     chmod 0664 /proc/perfmgr/tchbst/user/usrtch
     chown system system /sys/module/mtk_fpsgo/parameters/cfp_onoff
     chmod 0664 /sys/module/mtk_fpsgo/parameters/cfp_onoff
+    chown system system /sys/module/mtk_fpsgo/parameters/cfp_polling_ms
+    chmod 0664 /sys/module/mtk_fpsgo/parameters/cfp_polling_ms
+    chown system system /sys/module/mtk_fpsgo/parameters/cfp_up_loading
+    chmod 0664 /sys/module/mtk_fpsgo/parameters/cfp_up_loading
+    chown system system /sys/module/mtk_fpsgo/parameters/cfp_down_loading
+    chmod 0664 /sys/module/mtk_fpsgo/parameters/cfp_down_loading
+    chown system system /sys/module/mtk_fpsgo/parameters/cfp_up_time
+    chmod 0664 /sys/module/mtk_fpsgo/parameters/cfp_up_time
+    chown system system /sys/module/mtk_fpsgo/parameters/cfp_down_time
+    chmod 0664 /sys/module/mtk_fpsgo/parameters/cfp_down_time
     chown system system /proc/perfmgr/boost_ctrl/cpu_ctrl/cfp_enable
     chmod 0664 /proc/perfmgr/boost_ctrl/cpu_ctrl/cfp_enable
     chown system system /proc/perfmgr/boost_ctrl/cpu_ctrl/cfp_polling_ms
@@ -283,6 +293,8 @@ on post-fs-data
     chmod 0664 /sys/kernel/ged/hal/dvfs_cwaitg
     chown system system /sys/kernel/ged/hal/dvfs_loading_mode
     chmod 0664 /sys/kernel/ged/hal/dvfs_loading_mode
+    chown system system /sys/kernel/ged/hal/dvfs_workload_mode
+    chmod 0664 /sys/kernel/ged/hal/dvfs_workload_mode
     chown system system /sys/class/misc/mali0/device/power_policy
     chmod 0664 /sys/class/misc/mali0/device/power_policy
     chown system system /sys/class/misc/mali0/device/pm_poweroff
@@ -299,6 +311,16 @@ on post-fs-data
     chmod 0664 /sys/kernel/ged/hal/fw_idle
     chown system system /sys/kernel/ged/hal/gpu_boost_level
     chmod 0664 /sys/kernel/ged/hal/gpu_boost_level
+    chown system system /sys/kernel/ged/hal/loading_window_size
+    chmod 0664 /sys/kernel/ged/hal/loading_window_size
+    chown system system /sys/kernel/ged/hal/loading_stride_size
+    chmod 0664 /sys/kernel/ged/hal/loading_stride_size
+    chown system system /sys/kernel/ged/hal/fallback_timing
+    chmod 0664 /sys/kernel/ged/hal/fallback_timing
+    chown system system /sys/kernel/ged/hal/fallback_interval
+    chmod 0664 /sys/kernel/ged/hal/fallback_interval
+    chown system system /sys/module/ged/parameters/g_fb_dvfs_threshold
+    chmod 0664 /sys/module/ged/parameters/g_fb_dvfs_threshold
 
 
 # PPM
