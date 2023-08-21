@@ -103,12 +103,24 @@ on post-fs-data
 #rgb leds
     chmod 0666 /sys/class/leds/red/brightness
     chown system system /sys/class/leds/red/brightness
+	chmod 0666 /sys/class/leds/red/pwm_dim_duty
+    chown system system /sys/class/leds/red/pwm_dim_duty
+	chmod 0666 /sys/class/leds/red/pwm_dim_freq
+    chown system system /sys/class/leds/red/pwm_dim_freq
+	
     chmod 0666 /sys/class/leds/green/brightness
     chown system system /sys/class/leds/green/brightness
+	chmod 0666 /sys/class/leds/green/pwm_dim_duty
+    chown system system /sys/class/leds/green/pwm_dim_duty
+	chmod 0666 /sys/class/leds/green/pwm_dim_freq
+    chown system system /sys/class/leds/green/pwm_dim_freq
+	
     chmod 0666 /sys/class/leds/blue/brightness
     chown system system /sys/class/leds/blue/brightness
     chmod 0666 /sys/class/leds/blue/pwm_dim_duty
     chown system system /sys/class/leds/blue/pwm_dim_duty
+	chmod 0666 /sys/class/leds/blue/pwm_dim_freq
+    chown system system /sys/class/leds/blue/pwm_dim_freq
 #8804
 	chmod 0666 /sys/class/led_ir_led/led_ir_led_data/led_ir_led_read
     chown system system /sys/class/led_ir_led/led_ir_led_data/led_ir_led_read
