@@ -970,7 +970,7 @@
     ut2="11"
     ut3="10"
     sync_to_slp="false"
-    imsi_enable="true"
+    imsi_enable="false"
     no_sensitive_log="true"
     supl_ver_minor="0"
     supl_ver_ser_ind="4"
