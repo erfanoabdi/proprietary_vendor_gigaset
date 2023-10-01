@@ -147,6 +147,12 @@ on post-fs-data
     chmod 0660 /sys/devices/system/cpu/cpufreq/policy7/sugov_ext/down_rate_limit_us
     chown system system /sys/module/mtk_core_ctl/parameters/policy_enable
     chmod 0660 /sys/module/mtk_core_ctl/parameters/policy_enable
+    chown system system /sys/devices/system/cpu/sched_ctl/sched_core_pause_info
+    chmod 0660 /sys/devices/system/cpu/sched_ctl/sched_core_pause_info
+    chown system system /sys/devices/system/cpu/cpufreq/sugov_ext/up_rate_limit_us
+    chmod 0660 /sys/devices/system/cpu/cpufreq/sugov_ext/up_rate_limit_us
+    chown system system /sys/devices/system/cpu/cpufreq/sugov_ext/down_rate_limit_us
+    chmod 0660 /sys/devices/system/cpu/cpufreq/sugov_ext/down_rate_limit_us
 
 # Task turbo
     chown system system /sys/module/task_turbo/parameters/feats
@@ -319,6 +325,16 @@ on post-fs-data
     chmod 0664 /sys/kernel/ged/hal/fallback_timing
     chown system system /sys/kernel/ged/hal/fallback_interval
     chmod 0664 /sys/kernel/ged/hal/fallback_interval
+    chown system system /proc/sys/vm/min_free_kbytes
+    chmod 0660 /proc/sys/vm/min_free_kbytes
+    chown system system /sys/kernel/mm/transparent_hugepage/enabled
+    chmod 0660 /sys/kernel/mm/transparent_hugepage/enabled
+    chown system system /sys/kernel/mm/transparent_hugepage/defrag
+    chmod 0660 /sys/kernel/mm/transparent_hugepage/defrag
+    chown system system /sys/kernel/mm/transparent_hugepage/khugepaged/defrag
+    chmod 0660 /sys/kernel/mm/transparent_hugepage/khugepaged/defrag
+    chown system system /sys/kernel/mm/transparent_hugepage/khugepaged/scan_sleep_millisecs
+    chmod 0660 /sys/kernel/mm/transparent_hugepage/khugepaged/scan_sleep_millisecs
     chown system system /sys/module/ged/parameters/g_fb_dvfs_threshold
     chmod 0664 /sys/module/ged/parameters/g_fb_dvfs_threshold
 
@@ -580,6 +596,8 @@ on post-fs-data
     chmod 0660 /sys/module/fbt_cpu/parameters/qr_t2wnt_y_n
     chown system system /sys/module/mtk_fpsgo/parameters/gcc_enable
     chmod 0664 /sys/module/mtk_fpsgo/parameters/gcc_enable
+    chown system system /sys/module/fbt_cpu/parameters/gcc_enable
+    chmod 0664 /sys/module/fbt_cpu/parameters/gcc_enable
     chown system system /sys/module/fbt_cpu/parameters/gcc_enq_bound_thrs
     chmod 0660 /sys/module/fbt_cpu/parameters/gcc_enq_bound_thrs
     chown system system /sys/module/fbt_cpu/parameters/gcc_enq_bound_quota
@@ -682,6 +700,10 @@ on post-fs-data
     chmod 0660 /sys/kernel/fpsgo/fstb/clear_video_pid
     chown system system /sys/kernel/fpsgo/fstb/fstb_fps_bypass_min
     chmod 0660 /sys/kernel/fpsgo/fstb/fstb_fps_bypass_min
+    chown system system /sys/module/mtk_fpsgo/parameters/loading_enable
+    chmod 0664 /sys/module/mtk_fpsgo/parameters/loading_enable
+    chown system system /sys/kernel/fpsgo/fbt/blc_boost
+    chmod 0660 /sys/kernel/fpsgo/fbt/blc_boost
 
 # NET
     chown system system /proc/net/wlan/setCAM
@@ -727,7 +749,24 @@ on post-fs-data
     chown system system /proc/mgq/job_status
     chmod 0664 /proc/mgq/job_status
 
-
+# MAGT
+on property:ro.vendor.magt.mtk_magt_support=1
+    chown system system /proc/perfmgr_magt/magt_ioctl
+    chmod 0440 /proc/perfmgr_magt/magt_ioctl
+    chown system system /sys/kernel/fpsgo/xgf/runtime
+    chmod 0440 /sys/kernel/fpsgo/xgf/runtime
+    chown system system /sys/kernel/fpsgo/minitop/list
+    chmod 0440 /sys/kernel/fpsgo/minitop/list
+    chown system system /sys/kernel/fpsgo/common/render_loading
+    chmod 0440 /sys/kernel/fpsgo/common/render_loading
+    chown system system /sys/module/mtk_perf_ioctl_magt/parameters/thermal_aware_threshold
+    chmod 0660 /sys/module/mtk_perf_ioctl_magt/parameters/thermal_aware_threshold
+    chown system system /sys/module/mtk_perf_ioctl_magt/parameters/fpsdrop_aware_threshold
+    chmod 0660 /sys/module/mtk_perf_ioctl_magt/parameters/fpsdrop_aware_threshold
+    chown system system /sys/module/mtk_perf_ioctl_magt/parameters/advice_bat_avg_current
+    chmod 0660 /sys/module/mtk_perf_ioctl_magt/parameters/advice_bat_avg_current
+    chown system system /sys/module/mtk_perf_ioctl_magt/parameters/advice_bat_max_current
+    chmod 0660 /sys/module/mtk_perf_ioctl_magt/parameters/advice_bat_max_current
 
 #memory performance
 on property:sys.sysctl.extra_free_kbytes=*
