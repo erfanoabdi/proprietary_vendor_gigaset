@@ -256,8 +256,8 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GX4/proprietary/vendor/etc/aibokeh_0.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_0.cfg \
     vendor/gigaset/GX4/proprietary/vendor/etc/aibokeh_1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_1.cfg \
     vendor/gigaset/GX4/proprietary/vendor/etc/aibokeh_BSTAI:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_BSTAI \
-    vendor/gigaset/GX4/proprietary/vendor/etc/apdb/APDB_MT6789___W2317:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2317 \
-    vendor/gigaset/GX4/proprietary/vendor/etc/apdb/APDB_MT6789___W2317_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2317_ENUM \
+    vendor/gigaset/GX4/proprietary/vendor/etc/apdb/APDB_MT6789___W2223:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2223 \
+    vendor/gigaset/GX4/proprietary/vendor/etc/apdb/APDB_MT6789___W2223_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2223_ENUM \
     vendor/gigaset/GX4/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
     vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/AudioParamOptions_mgvi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_mgvi.xml \
     vendor/gigaset/GX4/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
